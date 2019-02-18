@@ -1,0 +1,9 @@
+.navbar {
+    background-color: black;
+}
+.jumbotron{
+    background: url("../img/imageAccueil.jpeg") no-repeat center center;
+    background-size: 100%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
