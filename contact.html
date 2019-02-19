@@ -2,12 +2,12 @@
 <html lang="fr">
 
 <head>
-  <title>Shake Burger</title>
+  <title>Shack Burger</title>
   <meta name="description" content="Contacts Restaurants Shake Burger">
   <meta name="keywords" content="restaurant,burger,hamburger, contacts">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
-  <link rel="shortcut icon" href="assets/img/burgerIcon.jpg">
+  <link rel="shortcut icon" href="assets/img/logoburger.png">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -15,8 +15,8 @@
 <body>
         <nav class="navbar navbar-dark fixed-top navbar-expand-lg">
             <a class="navbar-brand" href="#">
-                <img src="assets/img/burger navbar.png" width="30" height="30" class="d-inline-block align-top" alt="logo Shake Burger">
-                    Shake Burger
+                <img src="assets/img/logoburger.png" width="30" height="30" class="d-inline-block align-top" alt="logo Shake Burger">
+                    Shack Burger
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler1" aria-controls="navbarToggler1" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="navbarToggler1">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">Accueil </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="carte.html">Carte</a>
@@ -36,8 +36,52 @@
                         <a class="nav-link" href="restaurants.html">Nos restaurants</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
                     </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="jumbotron jumbotron-fluid text-center">
+                <img src="assets/img/logoburger.png" alt="logo burger" class="animated fadeInUp logoburger">
+                <h1>Shack Burger</h1> 
+        </div>
+        <div class="container">
+                <form>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="userFirstName">First Name</label>
+                            <input type="text" class="form-control" id="userFirstName" placeholder="Jean">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="userLastName">Last Name</label>
+                            <input type="text" class="form-control" id="userLastName" placeholder="Dupond">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                                <label for="userEmail">Email address</label>
+                                <input type="email" class="form-control" id="userEmail" placeholder="jean.dupond@example.com">
+                              </div>
+                        <div class="form-group">
+                            <label for="Subject">Subject</label>
+                            <select id="Subject" class="form-control">
+                                <option selected>Choose...</option>
+                                <option>Special Offers</option>
+                                <option>Events</option>
+                                <option>Jobs</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="TextMessage">Message</label>
+                            <textarea class="form-control" id="TextMessage" placeholder="Your message" rows="5"></textarea>
+                        </div>
+                        <div class="text-center">
+                        <button type="button" class="btn btn-info">
+                                <span class="glyphicon glyphicon-search"></span> Send
+                              </button>
+                        </div>
+                </form>
+        </div>
     
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
