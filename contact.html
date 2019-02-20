@@ -3,12 +3,13 @@
 
 <head>
   <title>Shack Burger</title>
-  <meta name="description" content="Contacts Restaurants Shake Burger">
+  <meta name="description" content="Contacts Restaurants Shack Burger">
   <meta name="keywords" content="restaurant,burger,hamburger, contacts">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
   <link rel="shortcut icon" href="assets/img/logoburger.png">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -46,38 +47,39 @@
                 <h1>Shack Burger</h1> 
         </div>
         <div class="container">
+                <h1 class="text-center">NOUS CONTACTER</h1>
                 <form>
                         <div class="form-row">
                           <div class="form-group col-md-6">
-                            <label for="userFirstName">First Name</label>
+                            <label for="userFirstName">Prénom</label>
                             <input type="text" class="form-control" id="userFirstName" placeholder="Jean">
                           </div>
                           <div class="form-group col-md-6">
-                            <label for="userLastName">Last Name</label>
+                            <label for="userLastName">Nom</label>
                             <input type="text" class="form-control" id="userLastName" placeholder="Dupond">
                           </div>
                         </div>
                         <div class="form-group">
-                                <label for="userEmail">Email address</label>
+                                <label for="userEmail">Adresse mail</label>
                                 <input type="email" class="form-control" id="userEmail" placeholder="jean.dupond@example.com">
                               </div>
                         <div class="form-group">
-                            <label for="Subject">Subject</label>
+                            <label for="Subject">Sujet</label>
                             <select id="Subject" class="form-control">
-                                <option selected>Choose...</option>
-                                <option>Special Offers</option>
-                                <option>Events</option>
-                                <option>Jobs</option>
-                                <option>Other</option>
+                                <option selected>Faites votre choix</option>
+                                <option>Je veux travailler pour Shack Burger</option>
+                                <option>Je veux ouvrir une franchise</option>
+                                <option>J'ai un truc pour vous</option>
+                                <option>Autre chose</option>
                             </select>
                         </div>
                         <div class="form-group">
                             <label for="TextMessage">Message</label>
-                            <textarea class="form-control" id="TextMessage" placeholder="Your message" rows="5"></textarea>
+                            <textarea class="form-control" id="TextMessage" placeholder="Votre message" rows="5"></textarea>
                         </div>
                         <div class="text-center">
                         <button type="button" class="btn btn-info">
-                                <span class="glyphicon glyphicon-search"></span> Send
+                             <i class="fa fa-envelope-o"></i> Envoi
                               </button>
                         </div>
                 </form>
