@@ -32,20 +32,6 @@ function getName() {
     setTimeout(dateTime,60000);
 })();
 
-/*setInterval(function dateTime() {
-    nomsDesJours = new Array("dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi");
-    nomsDesMois = new Array("janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre");
-    var d = new Date();
-    var jour = d.getDay();
-    var mois = d.getMonth();
-    var annee = d.getFullYear();
-    var date = d.getDate();
-    var heure = pad2(d.getHours());
-    var minutes = pad2(d.getMinutes());
-
-    document.getElementById("dateTime").innerHTML = "Nous sommes le " + nomsDesJours[jour] + " " + date + " " + nomsDesMois[mois] + " " + annee + ". Il est " + heure + "h" + minutes +".";
-},60000);
-*/
 function pad2(number) {
     return (number < 10 ? '0' : '') + number;
 };
