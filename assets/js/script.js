@@ -10,7 +10,7 @@ function getName() {
     if (!n) {
         n = window.prompt(q);
         if (n==="" || n===null){
-            n="inconnu";}
+            n="chez Shack Burger";}
         window.sessionStorage.setItem('name', n); 
     }
     document.getElementById("bienvenue").innerHTML = "Bienvenue " + n + " !!!";
