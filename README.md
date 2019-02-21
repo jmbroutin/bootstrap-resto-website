@@ -16,7 +16,7 @@ Le projet consiste en la création d'un site web pour une chaîne de restaurant 
 
 ## Aperçu
 
-(https://jmbroutin.github.io/bootstrap-resto-website/assets/img/Printscreen.png)
+(/assets/img/Printscreen.png)
 
 ## Lien vers la page 
 
