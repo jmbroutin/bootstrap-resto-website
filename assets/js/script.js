@@ -77,6 +77,7 @@ function pad2(number) {
         }
     }
 document.getElementById("openClose").innerHTML= open;
+console.log(open);
 setTimeout(openClose,60000);
 })();
 
