@@ -1,5 +1,6 @@
 {
  "name": "App",
+ "display": "standalone",
  "icons": [
   {
    "src": "\/bootstrap-resto-website\/assets\/img\/android-icon-36x36.png",
